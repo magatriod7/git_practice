@@ -5,6 +5,10 @@
 	}
 	
 
+	arr.forEach((item)=>{
+		console.log(item)
+	})
+	/*
 	for(cnt = 0; cnt <100; cnt++){
 	
 		//if((cnt%3 === 0)&&(cnt % 5 === 0)){
@@ -21,3 +25,5 @@
 			console.log(arr[cnt])
 		//}
 		}
+
+	*/
