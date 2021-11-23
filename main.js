@@ -6,6 +6,9 @@
 			console.log("fizz");
 		
 		}
+		else if(cnt%5 ===0){
+			console.log("buzz")
+		}
 		else{
 			console.log(cnt)
 		}
