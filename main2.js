@@ -6,24 +6,19 @@
 	
 
 	arr.forEach((item)=>{
-		console.log(item)
-	})
-	/*
-	for(cnt = 0; cnt <100; cnt++){
-	
-		//if((cnt%3 === 0)&&(cnt % 5 === 0)){
-		//	console.log("fizzbuzz");
+		if((item % 3 === 0)&&(item % 5 === 0)){
+			console.log("fizzbuzz");
 		
-		//}
-		//else if(cnt%3 === 0){
-		//	console.log("fizz")
-		//}
-		//else if(cnt%5 === 0){
-		//	console.log("buzz")
-		//}
-		//else{
-			console.log(arr[cnt])
-		//}
+		}
+		else if(item % 3 === 0){
+			console.log("fizz")
+		}
+		else if(item % 5 === 0){
+			console.log("buzz")
+		}
+		else{
+			console.log(item)
 		}
 
-	*/
+	})
+
