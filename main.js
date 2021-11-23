@@ -2,11 +2,14 @@
 
 	for(cnt = 1; cnt <101; cnt++){
 	
-		if(cnt%3 === 0){
-			console.log("fizz");
+		if((cnt%3 === 0)&&(cnt % 5 === 0)){
+			console.log("fizzbuzz");
 		
 		}
-		else if(cnt%5 ===0){
+		else if(cnt%3 === 0){
+			console.log("fizz")
+		}
+		else if(cnt%5 === 0){
 			console.log("buzz")
 		}
 		else{
